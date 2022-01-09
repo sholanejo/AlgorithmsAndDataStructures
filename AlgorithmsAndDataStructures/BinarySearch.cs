@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AlgorithmsAndDataStructures
+﻿namespace AlgorithmsAndDataStructures
 {
     public static class BinarySearch
     {
@@ -15,7 +11,7 @@ namespace AlgorithmsAndDataStructures
             {
                 int mid = (low + high) / 2;
                 int guess = (sortedArray[mid]);
-                if(guess == item)
+                if (guess == item)
                 {
                     return mid;
                 }
